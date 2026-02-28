@@ -10,16 +10,16 @@
 
 ```bash
 # 安装到当前项目（推荐）
-curl -fsSL https://raw.githubusercontent.com/AlexWong123-o1/pm-skills/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/AlexWong123-o1/PM-SKILLs/main/install.sh | bash
 
 # 安装到指定项目
-curl -fsSL https://raw.githubusercontent.com/AlexWong123-o1/pm-skills/main/install.sh | bash -s -- /path/to/your/project
+curl -fsSL https://raw.githubusercontent.com/AlexWong123-o1/PM-SKILLs/main/install.sh | bash -s -- /path/to/your/project
 
 # 全局安装（所有 Cursor 项目可用）
-curl -fsSL https://raw.githubusercontent.com/AlexWong123-o1/pm-skills/main/install.sh | bash -s -- --global
+curl -fsSL https://raw.githubusercontent.com/AlexWong123-o1/PM-SKILLs/main/install.sh | bash -s -- --global
 
 # 强制覆盖更新 + 附带工作流指南
-curl -fsSL https://raw.githubusercontent.com/AlexWong123-o1/pm-skills/main/install.sh | bash -s -- --force --guide
+curl -fsSL https://raw.githubusercontent.com/AlexWong123-o1/PM-SKILLs/main/install.sh | bash -s -- --force --guide
 ```
 
 安装完成后，在 Cursor 中对 AI 说：
@@ -138,10 +138,10 @@ AI 会自动评估你的起点，从合适的阶段开始引导。
 
 ```bash
 # 卸载当前项目的技能
-curl -fsSL https://raw.githubusercontent.com/AlexWong123-o1/pm-skills/main/uninstall.sh | bash
+curl -fsSL https://raw.githubusercontent.com/AlexWong123-o1/PM-SKILLs/main/uninstall.sh | bash
 
 # 卸载全局安装
-curl -fsSL https://raw.githubusercontent.com/AlexWong123-o1/pm-skills/main/uninstall.sh | bash -s -- --global
+curl -fsSL https://raw.githubusercontent.com/AlexWong123-o1/PM-SKILLs/main/uninstall.sh | bash -s -- --global
 ```
 
 ---

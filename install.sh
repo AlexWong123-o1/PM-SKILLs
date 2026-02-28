@@ -9,7 +9,7 @@ set -euo pipefail
 #    curl -fsSL ... | bash -s -- /path/to/project  # 指定项目安装
 # ============================================================
 
-REPO="AlexWong123-o1/pm-skills"
+REPO="AlexWong123-o1/PM-SKILLs"
 BRANCH="main"
 
 RED='\033[0;31m'
